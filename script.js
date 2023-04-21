@@ -32,7 +32,7 @@ function createCard(data) {
   let span2 = document.createElement('span');
   span2.innerHTML = `${data.following!==undefined?data.following+" following":"null"}`;
 
-  let span3 = document.createElement('span');
+  let span3 = document.createElement('span'); 
   span3.innerHTML = `${data.public_repos!==undefined?data.public_repos+" repos":"null"}`;
   follow.append(span1, span2, span3);
 
