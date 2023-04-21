@@ -1,0 +1,66 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #2596be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+margin-top: 100px;
+outline: 0;
+border: 2px solid #76b5c5;
+padding: 15px 15px;
+width: 400px;
+border-radius: 10px;
+background-color: #063970;
+color: #cce7e8;
+
+}
+.card{
+    margin-top: 50px;
+    display: grid;
+    vertical-align: middle;
+    place-items: center;
+    grid-template-columns: 30% 60%;
+    background-color: #4b287b;
+    border-radius: 20px;
+    padding: 50px 10px;
+    color: white;
+    line-height: 2;
+    width: 700px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.card .image-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card .details .follow{
+display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.card .details .repos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card .details .repos span{
+    background-color: #3a32a8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 7.5px 7.5px 7.5px 0px;
+    
+}
+.card .details .repos span:nth-of-type(1),.card .details .repos span:nth-of-type(4){
+    margin-left: 0;
+}
